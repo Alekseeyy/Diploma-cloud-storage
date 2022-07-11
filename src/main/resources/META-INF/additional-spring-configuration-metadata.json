@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "file.root-location",
+      "type": "java.lang.String",
+      "description": "Description for file.root-location."
+    },
+    {
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "description": "Description for jwt.secret."
+    }
+  ]
+}
