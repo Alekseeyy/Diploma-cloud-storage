@@ -23,3 +23,12 @@ services:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://database:5432/postgres
     depends_on:
       - database
+
+  front:
+    build:
+      context: netology-diplom-frontend
+      dockerfile: Dockerfile
+    container_name: FRONT
+
+    ports:
+      - '8081:8080'
